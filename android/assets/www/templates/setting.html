@@ -1,0 +1,28 @@
+<header ng-controller="HeadCtrl" class="header-setting">
+    <h1>{{ title }}</h1>
+    <div class="back"><div></div><a href="#/"></a></div>
+</header>
+<section class="page-setting">
+    <div class="number">
+        <p class="desc">Nombre de joueurs</p>
+        <div class="nb-player" data-points="1" data-min="2">
+            <div class="decrease icon-minus"></div><input type="text" value="{{players.nbPlayers}}" /><div class="increase icon-plus"></div>
+        </div>
+        <p class="desc">Score de départ</p>
+        <div class="nb-points" data-points="10" data-min="10">
+            <div class="decrease icon-minus"></div><input type="text" value="{{players.score}}" /><div class="increase icon-plus"></div>
+        </div>
+    </div>
+    <div class="presets">
+        <ul>
+            <li id="title">Presets</li>
+            <li ng-repeat="game in games">
+                <span id='{{game.id}}'>{{game.name}}</span>
+            </li>
+        </ul>
+    </div>
+</section>
+<footer class="footer-setting">
+    <div class="adfab">Created by <span class="turquoise">AdFab Connect</span></div>
+    <div class="kirk">Designed by <span class="turquoise">KIRK</span></div>
+</footer>

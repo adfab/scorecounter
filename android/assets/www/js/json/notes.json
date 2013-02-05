@@ -1,0 +1,24 @@
+{
+    "messages": [
+        {
+            "id": "0",
+            "title": "Astuce",
+            "txt": "Balayez vers la droite pour ouvrir le menu d'options et dans le sens opposé pour revenir sur la pages de score."
+        },
+        {
+            "id": "1",
+            "title": "Astuce",
+            "txt": "Appuyez quelques secondes sur la case score d'un joueur pour ajouter son nom sur la case."
+        },
+        {
+            "id": "2",
+            "title": "Astuce",
+            "txt": "Secouez votre téléphone pour remettre les scores à leur valeur de départ."
+        },
+        {
+            "id": "3",
+            "title": "Astuce",
+            "txt": "Utilisez le menu des options (icon en haut a gauche) pour modifier le nombre de joueurs et leur score de départ."
+        }
+    ]
+}
