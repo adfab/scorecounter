@@ -1,0 +1,14 @@
+{
+    "games": [
+        {
+            "name": "Jeu par défaut",
+            "id": "default",
+            "points": "10"
+        },
+        {
+            "name": "Magic",
+            "id": "magic",
+            "points": "20"
+        }
+    ]
+}
